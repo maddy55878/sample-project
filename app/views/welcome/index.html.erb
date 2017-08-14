@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+<%= stylesheet_link_tag "welcome" %>
+    <meta charset="UTF-8">
+    <title>Brew to you!</title>
+    
+  </head>
+  <body>
+
+    <h1> Welcome! </h1>
+    <form>
+      Please enter your location <br>
+      City: 
+      <input type="text" name="form" name="my_city" ><br>
+      State: 
+      <input type="text" name="form" name="my_state"  ><br>
+      What beverage are you needing? <br>
+      coffee
+      <input type="radio" name="info" value="Coffee"><br>
+      tea
+      <input type="radio" name="info" value="Tea"><br>
+      </form>
+
+<form action="/results">
+<input type="submit" value ="Get me coffee!" />
+</form> 
+      <br>
+    
+
+  </body>
+</html>
